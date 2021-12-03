@@ -1,0 +1,249 @@
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #faf4f2;
+}
+
+header {
+    background-color: #f8e1db;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+}
+
+.menu-item {
+    padding: 40px 20px;
+}
+
+.banner-container {
+    padding-top: 43.25%;
+    background: url('../Image/BG.png') center/ cover no-repeat;
+}
+
+.services-container {
+    padding: 100px 0;
+}
+
+.services-heading {
+    text-align: center;
+}
+
+.services-heading img {
+    width: initial;
+}
+
+.main-services {
+    padding: 50px 0;
+}
+
+.services-item {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+
+}
+
+.services-bg {
+    background-color: #ffff;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.travel-img {
+    position: relative;
+}
+
+.travel-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.like-icon {
+    position:absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(255, 255, 255, 0.561);
+    border-radius: 50%;
+}
+
+.like-icon a {
+    height: 44px;
+    display: block;
+    padding: 10px;
+}
+
+.like-icon:hover {
+    background-color: #ffff;
+}
+
+.like-icon i {
+    color: #e76f51;
+    font-size: 24px;
+}
+
+.services-content {
+    padding: 20px 0;
+}
+
+.services-content h2 {
+    margin-bottom: 20px;
+}
+
+.services-content span {
+    line-height: 1.8889;
+}
+
+.services-button {
+    text-align: center;
+}
+
+.read-more {
+    padding: 15px 40px;
+    border-radius: 15px;
+    border: none;
+    background-image: linear-gradient(to right, #ffcbbe 0%, #f8e1db 51%, #fd957b 100%);
+    background-size: 200% auto;
+    transition: all .3s ease-out;
+}
+
+
+.read-more:hover{
+    background-position: right center;
+}
+
+.services-all {
+    text-align: center;
+}
+
+.view-all {
+    border: 2px solid #e76f51;
+    color: #e76f51;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 15px 60px;
+    border: 2px solid ;
+    border-radius: 40px;
+}
+
+.view-all:hover {
+    background-color: #f8e1db;
+}
+
+#contract {
+    background-image: url('../Image/mask.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left -405px top 0px;   background-color: #f8e1db;
+}
+
+/* .contract-container {
+    
+} */
+
+.contract-img {
+    float: left;
+    padding: 40px 0;
+}
+
+.contract-container h2 {
+    margin-bottom: 20px;
+}
+
+.contract-content {
+    width: 50%;
+    float: right;
+    padding: 110px 0;
+}
+
+.contract-heading {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.contract-footer {
+    margin-top: 20px;
+}
+
+.download {
+    width: 50%;
+    float: left;
+}
+
+.follow {
+    width: 50%;
+    float: left;
+}
+
+.follow-icon a{
+    color: #e76f51;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: #f8e1db;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+
+.footer-items {
+    padding-top: 150px;
+}
+
+.messages {
+    float: left;
+    width: 40%;
+    padding-right: 30px;
+
+}
+
+.footer-menu {
+    float: left;
+    width: 20%;
+}
+
+.footer-contract {
+    float: left;
+    width: 20%;
+
+}
+
+.footer-plan {
+    float: left;
+    width: 20%;
+
+}
+
+.footer-items h2 {
+    margin-bottom: 30px;
+}
+
+.footer-items p {
+    line-height: 1.66666667;
+}
+
+.copyright {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.dots-slide button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
